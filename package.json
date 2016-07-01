@@ -1,10 +1,17 @@
 {
-  "name": "FEJStesting",
+  "name": "fejs_testing",
   "version": "0.0.1",
   "description": "a sample testing setup",
+  "main": "my.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tevko/FEJStesting.git"
+    "url": "git+https://github.com/dickyw71/FEJStesting.git"
   },
   "keywords": [
     "testing",
@@ -13,16 +20,16 @@
     "travis",
     "node"
   ],
-  "author": "@tevko",
+  "author": "dickyw",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tevko/FEJStesting/issues"
+    "url": "https://github.com/dickyw71/FEJStesting/issues"
   },
-  "homepage": "https://github.com/tevko/FEJStesting",
+  "homepage": "https://github.com/dickyw71/FEJStesting#readme",
   "devDependencies": {
-    "jasmine-core": "^2.3.2",
-    "karma": "^0.12.31",
-    "karma-firefox-launcher": "^0.1.4",
-    "karma-jasmine": "^0.3.5"
+    "jasmine-core": "^2.4.1",
+    "karma": "^1.1.0",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2"
   }
 }
